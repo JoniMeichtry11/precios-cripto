@@ -1,0 +1,11 @@
+{
+  "/api": {
+    "target": "hhttps://api.coingecko.com",
+    "secure": false,
+    "pathRewrite": {
+      "^/api": ""
+    },
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}
